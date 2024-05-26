@@ -25,6 +25,6 @@ while True:
         break
 
 if ganhou:
-    print(f"Parabens você ganhou! A palavra secreta é \033[34m{palavra}\033[m")
+    print(f"Parabens você ganhou! A palavra secreta é \033[33m{palavra}\033[m")
 else:
-    print(f"Você perdeu! A palavra era {palavra}")
+    print(f"Você perdeu! A palavra era \033[35m{palavra}\033[n")
