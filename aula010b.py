@@ -1,4 +1,4 @@
-nome = str(input('Qual é o seu nome: '))
+nome = str(input('Qual é o seu nome: ')).strip().capitalize()
 if nome == 'Wagner':
     print(f'{nome}, que nome mais lindo!')
 else:
