@@ -1,1 +1,1 @@
-palavra = 'banana'
+palavra = 'paralelepipedo'
